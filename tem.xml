@@ -1,0 +1,1202 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html b:css='false' b:responsive='true' b:version='2' class='v2' expr:dir='data:blog.languageDirection' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+<head>
+  <meta charset='utf-8'/>
+  <meta content='width=device-width, initial-scale=1.0, maximum-scale=5.0' name='viewport'/>
+  <title><data:blog.pageTitle/></title>
+  <b:include data='blog' name='all-head-content'/>
+
+  <!-- Primary Meta Tags -->
+  <meta content='Layanan pijat panggilan Jakarta 24 jam profesional ke hotel, apartemen, dan rumah. Nikmati pijat tradisional, reflexology, aromatherapy, sport massage, dan spa home service terbaik.' name='description'/>
+  <!-- Tag Pencarian Google -->
+  <meta content='pijat panggilan jakarta, pijat panggilan jakarta 24 jam, massage home service jakarta, spa panggilan jakarta, massage hotel jakarta, massage apartemen jakarta, pijat tradisional jakarta, spa premium jakarta' name='keywords'/>
+  <meta content='Daydreams Massage Home Service' name='author'/>
+  <meta content='index, follow, max-image-preview:large' name='robots'/>
+
+  <!-- PWA & Mobile Web App Meta Tags -->
+  <link href='/manifest.json' rel='manifest'/>
+  <link href='/icon.svg' rel='icon' type='image/svg+xml'/>
+  <link href='/apple-touch-icon.png' rel='apple-touch-icon'/>
+  <meta content='#d97706' name='theme-color'/>
+  <meta content='yes' name='mobile-web-app-capable'/>
+  <meta content='yes' name='apple-mobile-web-app-capable'/>
+  <meta content='black-translucent' name='apple-mobile-web-app-status-bar-style'/>
+  <meta content='Daydreams Spa' name='apple-mobile-web-app-title'/>
+
+  <!-- Open Graph / Meta -->
+  <meta content='website' property='og:type'/>
+  <meta expr:content='data:blog.canonicalUrl' property='og:url'/>
+  <meta content='Daydreams Massage Jakarta | Spa Premium | Pijat Panggilan Jakarta 24 Jam' property='og:title'/>
+  <meta content='Layanan pijat panggilan Jakarta 24 jam terbaik ke hotel, apartemen &amp; rumah. Terapis ramah, terlatih, profesional, dan higienis.' property='og:description'/>
+  <meta content='https://images.unsplash.com/photo-1544161515-4ab6ce6db874?q=80&amp;w=1200&amp;auto=format&amp;fit=crop' property='og:image'/>
+
+  <!-- Google Fonts -->
+  <link href='https://fonts.googleapis.com' rel='preconnect'/>
+  <link crossorigin='anonymous' href='https://fonts.gstatic.com' rel='preconnect'/>
+  <link href='https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,600&amp;family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&amp;display=swap' rel='stylesheet'/>
+
+  <!-- Structured Data / JSON-LD -->
+  <script type='application/ld+json'>
+  {
+    &quot;@context&quot;: &quot;https://schema.org&quot;,
+    &quot;@type&quot;: &quot;HealthAndBeautyBusiness&quot;,
+    &quot;name&quot;: &quot;Daydreams Massage Home Service Jakarta&quot;,
+    &quot;image&quot;: &quot;https://images.unsplash.com/photo&quot;,
+    &quot;url&quot;: &quot;https://daydreamsmassagejakarta.com&quot;,
+    &quot;telephone&quot;: &quot;+6281234567890&quot;,
+    &quot;priceRange&quot;: &quot;Rp 250.000 - Rp 500.000&quot;,
+    &quot;address&quot;: {
+      &quot;@type&quot;: &quot;PostalAddress&quot;,
+      &quot;streetAddress&quot;: &quot;Jl. Jenderal Sudirman No. Kav 52-53&quot;,
+      &quot;addressLocality&quot;: &quot;Jakarta Selatan&quot;,
+      &quot;addressRegion&quot;: &quot;DKI Jakarta&quot;,
+      &quot;postalCode&quot;: &quot;12190&quot;,
+      &quot;addressCountry&quot;: &quot;ID&quot;
+    },
+    &quot;geo&quot;: {
+      &quot;@type&quot;: &quot;GeoCoordinates&quot;,
+      &quot;latitude&quot;: -6.2088,
+      &quot;longitude&quot;: 106.8456
+    },
+    &quot;areaServed&quot;: [
+      &quot;Jakarta Selatan&quot;,
+      &quot;Jakarta Pusat&quot;,
+      &quot;Jakarta Barat&quot;,
+      &quot;Jakarta Timur&quot;,
+      &quot;Jakarta Utara&quot;
+    ]
+  }
+  </script>
+
+  <b:skin><![CDATA[
+  /* Theme: Daydreams Massage Jakarta - Blogger Edition (MIT License) */
+  :root {
+    --bg-dark: #0a0a0a;
+    --bg-surface: #141414;
+    --bg-card: #1c1c1c;
+    --border-subtle: #262626;
+    --gold-primary: #d4af37;
+    --gold-light: #fef08a;
+    --gold-gradient: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+    --text-primary: #f5f5f5;
+    --text-muted: #a3a3a3;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg-dark);
+    color: var(--text-primary);
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    line-height: 1.6;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, .font-serif {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+
+  a { color: var(--gold-primary); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+  .btn-gold {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    background: var(--gold-gradient);
+    color: #0a0a0a;
+    font-weight: 700;
+    font-size: 14px;
+    border-radius: 9999px;
+    padding: 12px 28px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 10px 20px rgba(217, 119, 6, 0.2);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  .btn-gold:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 14px 28px rgba(217, 119, 6, 0.35);
+    text-decoration: none;
+  }
+
+  /* PWA Banner Styles */
+  #pwa-install-banner-blogger {
+    display: none;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+    background: rgba(20, 20, 20, 0.96);
+    border: 1px solid rgba(245, 158, 11, 0.4);
+    border-radius: 16px;
+    padding: 14px 18px;
+    z-index: 99999;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.8);
+    backdrop-filter: blur(10px);
+  }
+
+  /* Cookie Banner Styles */
+  #cookie-consent-blogger {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    max-width: 440px;
+    background: rgba(20, 20, 20, 0.96);
+    border: 1px solid #333;
+    border-radius: 16px;
+    padding: 18px;
+    z-index: 99998;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.8);
+    backdrop-filter: blur(10px);
+  }
+
+  /* Tag Pencarian Google Cloud */
+  .tag-cloud {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 14px;
+  }
+  .tag-item {
+    background: #1f1f1f;
+    border: 1px solid #333;
+    color: #d4d4d4;
+    padding: 6px 14px;
+    border-radius: 10px;
+    font-size: 12px;
+    text-decoration: none;
+    transition: all 0.2s;
+  }
+  .tag-item:hover {
+    border-color: #f59e0b;
+    color: #f59e0b;
+    text-decoration: none;
+    transform: translateY(-1px);
+  }
+  ]]></b:skin>
+</head>
+<body>
+
+  <!-- Hidden Section Required for Blogger System Parsing -->
+  <div style='display:none;'>
+    <b:section id='main' showaddelement='yes'/>
+  </div>
+
+  <!-- ==========================================
+       1. TOP NOTICE SECTION (Widget: HTML1)
+       ========================================== -->
+  <b:section class='top-notice-section' id='top-notice-section' maxwidgets='1' showaddelement='no'>
+    <b:widget id='HTML1' locked='false' title='Top Hotline Notice' type='HTML' version='2' visible='true'>
+      <b:widget-settings>
+        <b:widget-setting name='content'/>
+      </b:widget-settings>
+      <b:includable id='main'>
+        <div style='background:#171717; border-bottom:1px solid #262626; padding:8px 16px; text-align:center; font-size:12px; color:#d4af37;'>
+          <strong>HOTLINE RESMI 24 JAM:</strong> Melayani Hotel, Apartemen, &amp; Perumahan di Jakarta. Tiba dalam 30 - 45 Menit. 
+          <a href='https://wa.me/6281234567890' style='color:#10b981; font-weight:bold; margin-left:8px;'>WhatsApp: +62 812-3456-7890</a>
+        </div>
+      </b:includable>
+    </b:widget>
+  </b:section>
+
+  <!-- ==========================================
+       2. HEADER SECTION (Widget: Header1)
+       ========================================== -->
+  <b:section class='header-section' id='header-section' maxwidgets='1' showaddelement='no'>
+    <b:widget id='Header1' locked='true' title='pijat sehat pwa (Header)' type='Header' version='2' visible='true'>
+      <b:widget-settings>
+        <b:widget-setting name='displayUrl'/>
+        <b:widget-setting name='displayHeight'>0</b:widget-setting>
+        <b:widget-setting name='sectionWidth'>-1</b:widget-setting>
+        <b:widget-setting name='useImage'>false</b:widget-setting>
+        <b:widget-setting name='shrinkToFit'>false</b:widget-setting>
+        <b:widget-setting name='imagePlacement'>BEHIND</b:widget-setting>
+        <b:widget-setting name='displayWidth'>0</b:widget-setting>
+      </b:widget-settings>
+      <b:includable id='main'>
+        <header style='border-bottom:1px solid #262626; background:rgba(10,10,10,0.9); padding:16px 0;'>
+          <div class='container' style='display:flex; align-items:center; justify-content:space-between;'>
+            <div>
+              <h1 style='font-size:22px; font-weight:700; color:#fff; letter-spacing:1px;'>
+                DAYDREAMS <span style='color:#d4af37;'>MASSAGE</span>
+              </h1>
+              <div style='font-size:11px; color:#a3a3a3; text-transform:uppercase; letter-spacing:2px;'>
+                SPA &amp; HOME SERVICE JAKARTA 24 JAM
+              </div>
+            </div>
+            <div style='display:flex; align-items:center; gap:12px;'>
+              <button id='btn-pwa-header' onclick='triggerPWAInstall()' style='display:none; background:#262626; border:1px solid #d4af37; color:#f59e0b; padding:8px 14px; border-radius:9999px; font-size:11px; font-weight:700; cursor:pointer;'>
+                📲 Pasang App (PWA)
+              </button>
+              <a class='btn-gold' href='https://wa.me/6281234567890?text=Halo%20Admin%20Daydreams%20Massage,%20saya%20ingin%20booking%20terapis%20ke%20lokasi%20saya%20sekarang.' target='_blank'>
+                Pesan Terapis Sekarang
+              </a>
+            </div>
+          </div>
+        </header>
+      </b:includable>
+      <b:includable id='behindImageStyle'>
+    <b:if cond='data:sourceUrl'>
+      <b:include cond='data:this.image' data='{                    image: data:this.image,                    selector: &quot;.header-widget&quot;                  }' name='responsiveImageStyle'/>
+      <style type='text/css'>
+        .header-widget {
+          background-position: <data:blog.locale.languageAlignment/>;
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+      </style>
+    </b:if>
+  </b:includable>
+      <b:includable id='description'>
+    <p>
+      <data:this.description/>
+    </p>
+  </b:includable>
+      <b:includable id='image'>
+    <a class='header-image-wrapper' expr:href='data:blog.homepageUrl'>
+      <b:include data='{                                                 image: data:image,                                                 altText: data:blog.title.escaped,                                                 originalWidth: data:width,                                                 originalHeight: data:height                                               }' name='responsiveImage'/>
+    </a>
+  </b:includable>
+      <b:includable id='title'>
+    <h1>
+      <b:tag cond='data:view.url != data:blog.homepageUrl' expr:href='data:blog.homepageUrl' name='a'>
+        <data:title/>
+      </b:tag>
+    </h1>
+  </b:includable>
+    </b:widget>
+  </b:section>
+
+  <!-- ==========================================
+       3. PWA INSTALL BANNER (Widget: HTML10)
+       ========================================== -->
+  <b:section class='pwa-banner-section' id='pwa-banner-section' maxwidgets='1' showaddelement='no'>
+    <b:widget id='HTML10' locked='false' title='Prompt Instalasi PWA' type='HTML' version='2' visible='true'>
+      <b:widget-settings>
+        <b:widget-setting name='content'/>
+      </b:widget-settings>
+      <b:includable id='main'>
+        <div id='pwa-install-banner-blogger'>
+          <div style='display:flex; align-items:center; justify-content:space-between; gap:12px;'>
+            <div style='display:flex; align-items:center; gap:12px;'>
+              <div style='width:42px; height:42px; border-radius:10px; background:#000; border:1px solid #d4af37; display:flex; align-items:center; justify-content:center; font-size:20px;'>
+                📱
+              </div>
+              <div>
+                <div style='font-size:11px; color:#f59e0b; font-weight:800; text-transform:uppercase;'>Aplikasi Web Resmi (PWA)</div>
+                <div style='font-size:13px; font-weight:700; color:#fff;'>Pasang Daydreams Massage di HP</div>
+                <div style='font-size:11px; color:#a3a3a3;'>Akses 24 jam cepat tanpa browser &amp; hemat kuota</div>
+              </div>
+            </div>
+            <div style='display:flex; align-items:center; gap:8px;'>
+              <button id='btn-pwa-action' onclick='triggerPWAInstall()' style='background:var(--gold-gradient); color:#000; font-weight:bold; border:none; padding:8px 14px; border-radius:10px; font-size:11px; cursor:pointer;'>
+                Instal App
+              </button>
+              <button onclick='dismissPWABanner()' style='background:none; border:none; color:#a3a3a3; font-size:18px; cursor:pointer; padding:4px;'>
+                &amp;times;
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- iOS Safari Modal Guide -->
+        <div id='ios-pwa-modal' style='display:none; position:fixed; inset:0; background:rgba(0,0,0,0.85); z-index:999999; align-items:center; justify-content:center; padding:20px;'>
+          <div style='background:#171717; border:1px solid #333; border-radius:20px; max-width:400px; width:100%; padding:24px; color:#fff;'>
+            <div style='font-size:16px; font-weight:bold; color:#f59e0b; margin-bottom:8px;'>Pasang di iPhone / iPad (Safari)</div>
+            <p style='font-size:12px; color:#ccc; line-height:1.5; margin-bottom:16px;'>
+              1. Ketuk tombol <strong>Share / Bagikan (ikon kotak panah ke atas)</strong> di bilah bawah browser Safari.<br/><br/>
+              2. Gulir ke bawah dan pilih <strong>&quot;Tambah ke Layar Utama&quot; (Add to Home Screen)</strong>.<br/><br/>
+              3. Ketuk <strong>&quot;Tambah&quot; (Add)</strong> di kanan atas. Aplikasi Daydreams akan muncul di homescreen Anda!
+            </p>
+            <button onclick='document.getElementById(&quot;ios-pwa-modal&quot;).style.display=&quot;none&quot;' style='width:100%; padding:10px; background:#f59e0b; color:#000; font-weight:bold; border:none; border-radius:10px; cursor:pointer;'>
+              Tutup Panduan
+            </button>
+          </div>
+        </div>
+      </b:includable>
+    </b:widget>
+  </b:section>
+
+  <!-- ==========================================
+       4. HERO & QUICK BOOKING (Widget: HTML2)
+       ========================================== -->
+  <b:section class='hero-section' id='hero-section' maxwidgets='1' showaddelement='no'>
+    <b:widget id='HTML2' locked='false' title='Hero Banner &amp;amp; Quick Booking' type='HTML' version='2' visible='true'>
+      <b:widget-settings>
+        <b:widget-setting name='content'/>
+      </b:widget-settings>
+      <b:includable id='main'>
+        <div style='padding:60px 0; background:linear-gradient(180deg, #121212 0%, #0a0a0a 100%); border-bottom:1px solid #262626;'>
+          <div class='container' style='text-align:center;'>
+            <span style='display:inline-block; background:rgba(217,119,6,0.15); border:1px solid rgba(217,119,6,0.3); color:#f59e0b; font-size:11px; font-weight:800; letter-spacing:2px; text-transform:uppercase; padding:6px 16px; border-radius:9999px; margin-bottom:16px;'>
+              PREMIUM SPA &amp; MASSAGE HOME SERVICE
+            </span>
+            <h2 style='font-size:36px; line-height:1.2; color:#fff; max-width:800px; margin:0 auto 16px;'>
+              Sentuhan Spa Bintang Lima Langsung ke Kamar Hotel &amp; Hunian Anda
+            </h2>
+            <p style='color:#a3a3a3; font-size:15px; max-width:650px; margin:0 auto 28px;'>
+              Layanan pijat panggilan Jakarta 24 jam dengan terapis bersertifikat resmi, sopan, ramah, dan higienis. Bebas biaya transportasi ke seluruh wilayah DKI Jakarta.
+            </p>
+            <a class='btn-gold' href='https://wa.me/6281234567890?text=Halo%20Admin%20Daydreams%20Massage,%20saya%20ingin%20booking%20terapis%20ke%20lokasi%20saya%20sekarang.' target='_blank'>
+              Hubungi WhatsApp Booking: 0812-3456-7890
+            </a>
+          </div>
+        </div>
+      </b:includable>
+    </b:widget>
+  </b:section>
+
+  <!-- ==========================================
+       5. SERVICES & TARIFF SECTION (Widget: HTML3)
+       ========================================== -->
+  <b:section class='services-section' id='services-section' maxwidgets='1' showaddelement='no'>
+    <b:widget id='HTML3' locked='false' title='Menu Treatment &amp;amp; Tarif' type='HTML' version='2' visible='true'>
+      <b:widget-settings>
+        <b:widget-setting name='content'/>
+      </b:widget-settings>
+      <b:includable id='main'>
+        <div style='padding:60px 0; background:#0a0a0a;'>
+          <div class='container'>
+            <div style='text-align:center; margin-bottom:40px;'>
+              <span style='color:#d4af37; font-size:11px; font-weight:800; letter-spacing:2px; text-transform:uppercase;'>PAKET PERAWATAN SPA</span>
+              <h2 style='font-size:30px; color:#fff; margin-top:8px;'>Daftar Menu &amp; Tarif Terlengkap</h2>
+            </div>
+            <div style='display:grid; grid-template-columns:repeat(auto-fit, minmax(260px, 1fr)); gap:20px;'>
+              <div style='background:#141414; border:1px solid #262626; border-radius:16px; padding:24px;'>
+                <h3 style='color:#fff; font-size:18px;'>Traditional Massage</h3>
+                <div style='color:#d4af37; font-size:18px; font-weight:bold; margin:8px 0;'>Rp 300.000 / 90 Menit</div>
+                <p style='color:#a3a3a3; font-size:13px;'>Kombinasi pijat urut Jawa dan Bali melancarkan peredaran darah, meredakan lelah dan pegal linu.</p>
+              </div>
+              <div style='background:#141414; border:1px solid #d4af37; border-radius:16px; padding:24px;'>
+                <div style='font-size:10px; background:#d4af37; color:#000; font-weight:800; display:inline-block; padding:2px 8px; border-radius:6px; margin-bottom:8px;'>PALING LARIS</div>
+                <h3 style='color:#fff; font-size:18px;'>Aromatherapy &amp; Reflexology</h3>
+                <div style='color:#d4af37; font-size:18px; font-weight:bold; margin:8px 0;'>Rp 350.000 / 90 Menit</div>
+                <p style='color:#a3a3a3; font-size:13px;'>Minyak esensial murni menenangkan sistem saraf dipadu stimulasi titik saraf refleksi kaki.</p>
+              </div>
+              <div style='background:#141414; border:1px solid #262626; border-radius:16px; padding:24px;'>
+                <h3 style='color:#fff; font-size:18px;'>Deep Tissue Recovery</h3>
+                <div style='color:#d4af37; font-size:18px; font-weight:bold; margin:8px 0;'>Rp 400.000 / 90 Menit</div>
+                <p style='color:#a3a3a3; font-size:13px;'>Pijatan bertekanan kuat melepas simpul otot tegang kronis pasca olahraga atau pekerjaan padat.</p>
+              </div>
+              <div style='background:#141414; border:1px solid #262626; border-radius:16px; padding:24px;'>
+                <h3 style='color:#fff; font-size:18px;'>Lulur &amp; Body Scrub Spa</h3>
+                <div style='color:#d4af37; font-size:18px; font-weight:bold; margin:8px 0;'>Rp 420.000 / 90 Menit</div>
+                <p style='color:#a3a3a3; font-size:13px;'>Eksfoliasi sel kulit mati dengan ramuan herbal alami untuk kulit halus, cerah, dan wangi segar.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </b:includable>
+    </b:widget>
+  </b:section>
+
+  <!-- ==========================================
+       6. COVERAGE AREA SECTION (Widget: HTML4)
+       ========================================== -->
+  <b:section class='area-section' id='area-section' maxwidgets='1' showaddelement='no'>
+    <b:widget id='HTML4' locked='false' title='Jangkauan Lokasi Jakarta' type='HTML' version='2' visible='true'>
+      <b:widget-settings>
+        <b:widget-setting name='content'/>
+      </b:widget-settings>
+      <b:includable id='main'>
+        <div style='padding:50px 0; background:#121212; border-top:1px solid #262626;'>
+          <div class='container'>
+            <div style='text-align:center; margin-bottom:30px;'>
+              <h2 style='font-size:26px; color:#fff;'>Jangkauan Panggilan 24 Jam Seluruh Jakarta</h2>
+              <p style='color:#a3a3a3; font-size:13px;'>Terapis terdekat siap berangkat menuju kamar hotel, apartemen, atau kediaman Anda.</p>
+            </div>
+            <div style='display:grid; grid-template-columns:repeat(auto-fit, minmax(200px, 1fr)); gap:16px; text-align:center;'>
+              <div style='background:#1a1a1a; padding:18px; border-radius:12px; border:1px solid #2b2b2b;'>
+                <h4 style='color:#d4af37;'>Jakarta Selatan</h4>
+                <p style='font-size:11px; color:#999; margin-top:6px;'>SCBD, Senopati, Sudirman, Kuningan, Kemang, Pondok Indah</p>
+              </div>
+              <div style='background:#1a1a1a; padding:18px; border-radius:12px; border:1px solid #2b2b2b;'>
+                <h4 style='color:#d4af37;'>Jakarta Pusat</h4>
+                <p style='font-size:11px; color:#999; margin-top:6px;'>Thamrin, Menteng, Senayan, Tanah Abang, Gambir</p>
+              </div>
+              <div style='background:#1a1a1a; padding:18px; border-radius:12px; border:1px solid #2b2b2b;'>
+                <h4 style='color:#d4af37;'>Jakarta Barat</h4>
+                <p style='font-size:11px; color:#999; margin-top:6px;'>Puri Indah, Kebon Jeruk, Tomang, Grogol, Slipi</p>
+              </div>
+              <div style='background:#1a1a1a; padding:18px; border-radius:12px; border:1px solid #2b2b2b;'>
+                <h4 style='color:#d4af37;'>Jakarta Utara</h4>
+                <p style='font-size:11px; color:#999; margin-top:6px;'>PIK 1 &amp; 2, Pluit, Kelapa Gading, Sunter</p>
+              </div>
+              <div style='background:#1a1a1a; padding:18px; border-radius:12px; border:1px solid #2b2b2b;'>
+                <h4 style='color:#d4af37;'>Jakarta Timur</h4>
+                <p style='font-size:11px; color:#999; margin-top:6px;'>Rawamangun, Cawang, Matraman, Duren Sawit</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </b:includable>
+    </b:widget>
+  </b:section>
+
+  <!-- ==========================================
+       7. HYGIENE & PRIVACY SOP (Widget: HTML5)
+       ========================================== -->
+  <b:section class='guarantee-section' id='guarantee-section' maxwidgets='1' showaddelement='no'>
+    <b:widget id='HTML5' locked='false' title='SOP Higienitas &amp;amp; Privasi' type='HTML' version='2' visible='true'>
+      <b:widget-settings>
+        <b:widget-setting name='content'/>
+      </b:widget-settings>
+      <b:includable id='main'>
+        <div style='padding:50px 0; background:#0a0a0a; border-top:1px solid #262626;'>
+          <div class='container' style='display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:24px;'>
+            <div style='background:#141414; padding:24px; border-radius:16px; border:1px solid #262626;'>
+              <h3 style='color:#d4af37; font-size:18px; margin-bottom:8px;'>100% Higienis &amp; Bersih</h3>
+              <p style='color:#a3a3a3; font-size:13px;'>Terapis selalu membawa matras bersih, kain/sprei baru, antiseptik, serta minyak aromatik alami berkualitas food-grade yang ramah untuk semua jenis kulit.</p>
+            </div>
+            <div style='background:#141414; padding:24px; border-radius:16px; border:1px solid #262626;'>
+              <h3 style='color:#d4af37; font-size:18px; margin-bottom:8px;'>Privasi &amp; Keamanan Terjamin</h3>
+              <p style='color:#a3a3a3; font-size:13px;'>Data nama, alamat hotel, nomor kamar, maupun hunian pribadi Anda dijaga secara ketat dan rahasia demi kenyamanan relaksasi Anda sekeluarga.</p>
+            </div>
+            <div style='background:#141414; padding:24px; border-radius:16px; border:1px solid #262626;'>
+              <h3 style='color:#d4af37; font-size:18px; margin-bottom:8px;'>Terapis Resmi Berpengalaman</h3>
+              <p style='color:#a3a3a3; font-size:13px;'>Seluruh praktisi terapis telah melalui seleksi ketat, memiliki sertifikasi kompetensi resmi, serta mengutamakan sopan santun dan etika pelayanan hotel bintang lima.</p>
+            </div>
+          </div>
+        </div>
+      </b:includable>
+    </b:widget>
+  </b:section>
+
+  <!-- ==========================================
+       8. FAQ SECTION (Widget: HTML6)
+       ========================================== -->
+  <b:section class='faq-section' id='faq-section' maxwidgets='1' showaddelement='no'>
+    <b:widget id='HTML6' locked='false' title='Tanya Jawab FAQ' type='HTML' version='2' visible='true'>
+      <b:widget-settings>
+        <b:widget-setting name='content'/>
+      </b:widget-settings>
+      <b:includable id='main'>
+        <div style='padding:50px 0; background:#121212; border-top:1px solid #262626;'>
+          <div class='container' style='max-width:800px;'>
+            <div style='text-align:center; margin-bottom:30px;'>
+              <h2 style='font-size:26px; color:#fff;'>Pertanyaan Yang Sering Diajukan (FAQ)</h2>
+            </div>
+            <div>
+              <div style='background:#1a1a1a; padding:16px 20px; border-radius:12px; margin-bottom:12px; border:1px solid #262626;'>
+                <div style='font-weight:bold; color:#fff; font-size:14px; margin-bottom:6px;'>Berapa lama waktu terapis tiba di lokasi?</div>
+                <div style='color:#a3a3a3; font-size:13px;'>Rata-rata 30 hingga 45 menit setelah konfirmasi WhatsApp, tergantung jarak dan kondisi lalu lintas Jakarta.</div>
+              </div>
+              <div style='background:#1a1a1a; padding:16px 20px; border-radius:12px; margin-bottom:12px; border:1px solid #262626;'>
+                <div style='font-weight:bold; color:#fff; font-size:14px; margin-bottom:6px;'>Apakah bisa dipanggil ke kamar hotel atau apartemen?</div>
+                <div style='color:#a3a3a3; font-size:13px;'>Bisa. Sebagian besar pelanggan kami menginap di hotel bintang 3, 4, 5, dan apartemen di kawasan Jakarta.</div>
+              </div>
+              <div style='background:#1a1a1a; padding:16px 20px; border-radius:12px; margin-bottom:12px; border:1px solid #262626;'>
+                <div style='font-weight:bold; color:#fff; font-size:14px; margin-bottom:6px;'>Bagaimana cara pembayarannya?</div>
+                <div style='color:#a3a3a3; font-size:13px;'>Bisa tunai (Cash) langsung kepada terapis setelah selesai, atau melalui transfer bank / QRIS.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </b:includable>
+    </b:widget>
+  </b:section>
+
+  <!-- ==========================================
+       9. BLOG FEED SECTION (Widget: Blog1 - Standar Blogger)
+       ========================================== -->
+  <b:section class='main-blog-section' id='main-blog-section' maxwidgets='1' showaddelement='no'>
+    <b:widget id='Blog1' locked='true' title='Postingan Blog' type='Blog' version='2' visible='true'>
+      <b:widget-settings>
+        <b:widget-setting name='showDateHeader'>false</b:widget-setting>
+        <b:widget-setting name='style.textcolor'>#ffffff</b:widget-setting>
+        <b:widget-setting name='showShareButtons'>true</b:widget-setting>
+        <b:widget-setting name='showCommentLink'>true</b:widget-setting>
+        <b:widget-setting name='style.urlcolor'>#ffffff</b:widget-setting>
+        <b:widget-setting name='showAuthor'>false</b:widget-setting>
+        <b:widget-setting name='style.linkcolor'>#ffffff</b:widget-setting>
+        <b:widget-setting name='style.unittype'>TextAndImage</b:widget-setting>
+        <b:widget-setting name='style.bgcolor'>#ffffff</b:widget-setting>
+        <b:widget-setting name='timestampLabel'/>
+        <b:widget-setting name='reactionsLabel'/>
+        <b:widget-setting name='showAuthorProfile'>false</b:widget-setting>
+        <b:widget-setting name='style.layout'>1x1</b:widget-setting>
+        <b:widget-setting name='showLabels'>true</b:widget-setting>
+        <b:widget-setting name='showLocation'>true</b:widget-setting>
+        <b:widget-setting name='postLabelsLabel'/>
+        <b:widget-setting name='showTimestamp'>true</b:widget-setting>
+        <b:widget-setting name='postsPerAd'>3</b:widget-setting>
+        <b:widget-setting name='showBacklinks'>false</b:widget-setting>
+        <b:widget-setting name='style.bordercolor'>#ffffff</b:widget-setting>
+        <b:widget-setting name='showInlineAds'>true</b:widget-setting>
+        <b:widget-setting name='showReactions'>false</b:widget-setting>
+      </b:widget-settings>
+      <b:includable id='main'>
+        <div style='padding:50px 0; background:#0a0a0a; border-top:1px solid #262626;'>
+          <div class='container'>
+            <div style='text-align:center; margin-bottom:30px;'>
+              <span style='color:#d4af37; font-size:11px; font-weight:800; letter-spacing:2px; text-transform:uppercase;'>ARTIKEL KESEHATAN</span>
+              <h2 style='font-size:26px; color:#fff; margin-top:6px;'>Tips Relaksasi &amp; Kebugaran Tubuh</h2>
+            </div>
+            <b:if cond='data:posts.empty'>
+              <div style='text-align:center; color:#777; font-size:13px; padding:30px 0;'>
+                Belum ada postingan artikel. Postingan yang Anda tulis di Blogger dashboard akan tampil rapi di sini.
+              </div>
+            <b:else/>
+              <div style='display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:20px;'>
+                <b:loop values='data:posts' var='post'>
+                  <article style='background:#141414; border:1px solid #262626; border-radius:14px; padding:20px;'>
+                    <h3 style='font-size:17px; margin-bottom:8px;'>
+                      <a expr:href='data:post.url' style='color:#fff;'><data:post.title/></a>
+                    </h3>
+                    <div style='font-size:11px; color:#777; margin-bottom:10px;'>
+                      <data:post.date/>
+                    </div>
+                    <div style='font-size:13px; color:#a3a3a3; line-height:1.5;'>
+                      <data:post.snippet/>
+                    </div>
+                  </article>
+                </b:loop>
+              </div>
+            </b:if>
+          </div>
+        </div>
+      </b:includable>
+      <b:includable id='aboutPostAuthor'>
+  <div class='author-name'>
+    <a class='g-profile' expr:href='data:post.author.profileUrl' rel='author' title='author profile'>
+      <span>
+        <data:post.author.name/>
+      </span>
+    </a>
+  </div>
+  <div>
+    <span class='author-desc'>
+      <data:post.author.aboutMe/>
+    </span>
+  </div>
+</b:includable>
+      <b:includable id='addComments'>
+  <a expr:href='data:post.commentsUrl' expr:onclick='data:post.commentsUrlOnclick'>
+    <b:message name='messages.postAComment'/>
+  </a>
+</b:includable>
+      <b:includable id='commentAuthorAvatar'>
+  <div class='avatar-image-container'>
+    <img class='author-avatar' expr:src='data:comment.authorAvatarSrc' height='35' width='35'/>
+  </div>
+</b:includable>
+      <b:includable id='commentDeleteIcon' var='comment'>
+  <span expr:class='&quot;item-control &quot; + data:comment.adminClass'>
+    <b:if cond='data:showCmtPopup'>
+      <div class='goog-toggle-button'>
+        <div class='goog-inline-block comment-action-icon'/>
+      </div>
+    <b:else/>
+      <a class='comment-delete' expr:href='data:comment.deleteUrl' expr:title='data:messages.deleteComment'>
+        <img src='https://resources.blogblog.com/img/icon_delete13.gif'/>
+      </a>
+    </b:if>
+  </span>
+</b:includable>
+      <b:includable id='commentForm' var='post'>
+  <div class='comment-form'>
+    <a name='comment-form'/>
+    <h4 id='comment-post-message'><data:messages.postAComment/></h4>
+    <b:if cond='data:this.messages.blogComment != &quot;&quot;'>
+      <p><data:this.messages.blogComment/></p>
+    </b:if>
+    <b:include data='post' name='commentFormIframeSrc'/>
+    <iframe allowtransparency='allowtransparency' class='blogger-iframe-colorize blogger-comment-from-post' expr:height='data:cmtIframeInitialHeight ?: &quot;90px&quot;' frameborder='0' id='comment-editor' name='comment-editor' src='' width='100%'/>
+    <data:post.cmtfpIframe/>
+    <script type='text/javascript'>
+      BLOG_CMT_createIframe(&#39;<data:post.appRpcRelayPath/>&#39;);
+    </script>
+  </div>
+</b:includable>
+      <b:includable id='commentFormIframeSrc' var='post'>
+  <a expr:href='data:post.commentFormIframeSrc' id='comment-editor-src'/>
+</b:includable>
+      <b:includable id='commentItem' var='comment'>
+  <div class='comment' expr:id='&quot;c&quot; + data:comment.id'>
+    <b:include cond='data:blog.enabledCommentProfileImages' name='commentAuthorAvatar'/>
+
+    <div class='comment-block'>
+      <div class='comment-author'>
+        <b:if cond='data:comment.authorUrl'>
+          <b:message name='messages.authorSaidWithLink'>
+            <b:param expr:value='data:comment.author' name='authorName'/>
+            <b:param expr:value='data:comment.authorUrl' name='authorUrl'/>
+          </b:message>
+        <b:else/>
+          <b:message name='messages.authorSaid'>
+            <b:param expr:value='data:comment.author' name='authorName'/>
+          </b:message>
+        </b:if>
+      </div>
+      <div expr:class='&quot;comment-body&quot; + (data:comment.isDeleted ? &quot; deleted&quot; : &quot;&quot;)'>
+        <data:comment.body/>
+      </div>
+      <div class='comment-footer'>
+        <span class='comment-timestamp'>
+          <a expr:href='data:comment.url' title='comment permalink'>
+            <data:comment.timestamp/>
+          </a>
+          <b:include data='comment' name='commentDeleteIcon'/>
+        </span>
+      </div>
+    </div>
+  </div>
+</b:includable>
+      <b:includable id='commentList' var='comments'>
+  <div id='comments-block'>
+    <b:loop values='data:comments' var='comment'>
+      <b:include data='comment' name='commentItem'/>
+    </b:loop>
+  </div>
+</b:includable>
+      <b:includable id='commentPicker' var='post'>
+  <b:if cond='data:post.showThreadedComments'>
+    <b:include data='post' name='threadedComments'/>
+  <b:else/>
+    <b:include data='post' name='comments'/>
+  </b:if>
+</b:includable>
+      <b:includable id='comments' var='post'>
+  <section expr:class='&quot;comments&quot; + (data:post.embedCommentForm ? &quot; embed&quot; : &quot;&quot;)' expr:data-num-comments='data:post.numberOfComments' id='comments'>
+    <a name='comments'/>
+    <b:if cond='data:post.allowComments'>
+
+      <b:include name='commentsTitle'/>
+
+      <div expr:id='data:widget.instanceId + &quot;_comments-block-wrapper&quot;'>
+        <b:include cond='data:post.comments' data='post.comments' name='commentList'/>
+      </div>
+
+      <b:if cond='data:post.commentPagingRequired'>
+        <div class='paging-control-container'>
+          <b:if cond='data:post.hasOlderLinks'>
+            <a expr:class='data:post.oldLinkClass' expr:href='data:post.oldestLinkUrl'>
+              <data:messages.oldest/>
+            </a>
+            <a expr:class='data:post.oldLinkClass' expr:href='data:post.olderLinkUrl'>
+              <data:messages.older/>
+            </a>
+          </b:if>
+
+          <span class='comment-range-text'>
+            <data:post.commentRangeText/>
+          </span>
+
+          <b:if cond='data:post.hasNewerLinks'>
+            <a expr:class='data:post.newLinkClass' expr:href='data:post.newerLinkUrl'>
+              <data:messages.newer/>
+            </a>
+            <a expr:class='data:post.newLinkClass' expr:href='data:post.newestLinkUrl'>
+              <data:messages.newest/>
+            </a>
+          </b:if>
+        </div>
+      </b:if>
+
+      <div class='footer'>
+        <b:if cond='data:post.embedCommentForm'>
+          <b:if cond='data:post.allowNewComments'>
+            <b:include data='post' name='commentForm'/>
+          <b:else/>
+            <data:post.noNewCommentsText/>
+          </b:if>
+        <b:else/>
+          <b:if cond='data:post.allowComments'>
+            <b:include data='post' name='addComments'/>
+          </b:if>
+        </b:if>
+      </div>
+    </b:if>
+    <b:if cond='data:showCmtPopup'>
+      <div id='comment-popup'>
+        <iframe allowtransparency='allowtransparency' frameborder='0' id='comment-actions' name='comment-actions' scrolling='no'>
+        </iframe>
+      </div>
+    </b:if>
+  </section>
+</b:includable>
+      <b:includable id='commentsTitle'>
+  <h3 class='title'><data:messages.comments/></h3>
+</b:includable>
+      <b:includable id='feedLinks'>
+  <b:if cond='!data:view.isPost'> <!-- Blog feed links -->
+    <b:if cond='data:feedLinks'>
+      <div class='blog-feeds'>
+        <b:include data='feedLinks' name='feedLinksBody'/>
+      </div>
+    </b:if>
+  <b:else/> <!--Post feed links -->
+    <div class='post-feeds'>
+      <b:loop values='data:posts' var='post'>
+        <b:if cond='data:post.allowComments and data:post.feedLinks'>
+          <b:include data='post.feedLinks' name='feedLinksBody'/>
+        </b:if>
+      </b:loop>
+    </div>
+  </b:if>
+</b:includable>
+      <b:includable id='feedLinksBody' var='links'>
+  <div class='feed-links'>
+  <data:messages.subscribeTo/>
+  <b:loop values='data:links' var='f'>
+     <a class='feed-link' expr:href='data:f.url' expr:type='data:f.mimeType' target='_blank'><data:f.name/> (<data:f.feedType/>)</a>
+  </b:loop>
+  </div>
+</b:includable>
+      <b:includable id='homePageLink'>
+  <a class='home-link' expr:href='data:blog.homepageUrl'>
+    <data:messages.home/>
+  </a>
+</b:includable>
+      <b:includable id='iframeComments' var='post'>
+  <!-- G+ comments, no longer available. The includable is retained for backwards-compatibility. -->
+</b:includable>
+      <b:includable id='inlineAd' var='post'>
+  <b:if cond='!data:view.isPreview'>
+    <b:if cond='data:this.adCode or data:this.adClientId or data:blog.adsenseClientId'>
+      <!-- Ad -->
+      <div class='inline-ad'>
+        <b:if cond='data:this.adCode != &quot;&quot;'>
+          <data:this.adCode/>
+        <b:else/>
+          <b:include cond='data:this.adClientId or data:blog.adsenseClientId' name='defaultAdUnit'/>
+        </b:if>
+      </div>
+    </b:if>
+  <b:else/>
+    <div class='inline-ad'>
+      <div class='inline-ad-placeholder'>
+        <span><b:message name='messages.adsGoHere'/></span>
+      </div>
+    </div>
+  </b:if>
+</b:includable>
+      <b:includable id='nextPageLink'>
+  <a class='blog-pager-older-link' expr:href='data:olderPageUrl' expr:id='data:widget.instanceId + &quot;_blog-pager-older-link&quot;' expr:title='data:messages.olderPosts'>
+    <data:messages.olderPosts/>
+  </a>
+</b:includable>
+      <b:includable id='post' var='post'>
+  <div class='post'>
+    <b:include data='post' name='postMeta'/>
+    <b:include data='post' name='postTitle'/>
+    <b:include name='headerByline'/>
+    <b:if cond='data:view.isSingleItem'>
+      <b:include data='post' name='postBody'/>
+    <b:else/>
+      <b:include data='post' name='postBodySnippet'/>
+      <b:include data='post' name='postJumpLink'/>
+    </b:if>
+    <b:include data='post' name='postFooter'/>
+  </div>
+</b:includable>
+      <b:includable id='postBody' var='post'>
+  <!-- If metaDescription is empty, use the post body as the schema.org description too, for G+/FB snippeting. -->
+  <div class='post-body entry-content float-container' expr:id='&quot;post-body-&quot; + data:post.id'>
+    <data:post.body/>
+  </div>
+</b:includable>
+      <b:includable id='postBodySnippet' var='post'>
+  <b:include data='post' name='postBody'/>
+</b:includable>
+      <b:includable id='postCommentsAndAd' var='post'>
+  <article class='post-outer-container'>
+    <!-- Post title and body -->
+    <div class='post-outer'>
+      <b:include data='post' name='post'/>
+    </div>
+
+    <!-- Comments -->
+    <b:include cond='data:view.isSingleItem' data='post' name='commentPicker'/>
+
+    <!-- Show ad inside post container, after comments, if single item. -->
+    <b:include cond='data:view.isSingleItem and data:post.includeAd' data='post' name='inlineAd'/>
+  </article>
+
+  <!-- Show ad outside post container (between posts) for feed pages. -->
+  <b:include cond='data:view.isMultipleItems and data:post.includeAd' data='post' name='inlineAd'/>
+</b:includable>
+      <b:includable id='postCommentsLink'>
+  <b:if cond='data:view.isMultipleItems'>
+    <span class='byline post-comment-link container'>
+      <b:include cond='data:post.commentSource != 1' name='commentsLink'/>
+    </span>
+  </b:if>
+</b:includable>
+      <b:includable id='postFooter' var='post'>
+  <div class='post-footer'>
+    <b:include name='footerBylines'/>
+    <b:include data='post' name='postFooterAuthorProfile'/>
+  </div>
+</b:includable>
+      <b:includable id='postFooterAuthorProfile' var='post'>
+  <b:if cond='data:post.author.aboutMe and data:view.isPost'>
+    <div class='author-profile'>
+      <b:if cond='data:post.author.authorPhoto.url'>
+        <img class='author-image' expr:src='data:post.author.authorPhoto.url' width='50px'/>
+        <div class='author-about'>
+          <b:include data='post' name='aboutPostAuthor'/>
+        </div>
+      <b:else/>
+        <b:include data='post' name='aboutPostAuthor'/>
+      </b:if>
+    </div>
+  </b:if>
+</b:includable>
+      <b:includable id='postHeader' var='post'>
+  <b:include name='headerByline'/>
+</b:includable>
+      <b:includable id='postMeta' var='post'>
+  <b:include data='post' name='postMetadataJSON'/>
+</b:includable>
+      <b:includable id='postPagination'>
+  <div class='blog-pager container' id='blog-pager'>
+    <b:include cond='data:newerPageUrl' name='previousPageLink'/>
+    <b:include cond='data:olderPageUrl' name='nextPageLink'/>
+    <b:include cond='data:view.url != data:blog.homepageUrl' name='homePageLink'/>
+  </div>
+</b:includable>
+      <b:includable id='postTitle' var='post'>
+  <a expr:name='data:post.id'/>
+  <b:if cond='data:post.title != &quot;&quot;'>
+    <h3 class='post-title entry-title'>
+      <b:if cond='data:post.link or (data:post.url and data:view.url != data:post.url)'>
+        <a expr:href='data:post.link ?: data:post.url'><data:post.title/></a>
+      <b:else/>
+        <data:post.title/>
+      </b:if>
+    </h3>
+  </b:if>
+</b:includable>
+      <b:includable id='previousPageLink'>
+  <a class='blog-pager-newer-link' expr:href='data:newerPageUrl' expr:id='data:widget.instanceId + &quot;_blog-pager-newer-link&quot;' expr:title='data:messages.newerPosts'>
+    <data:messages.newerPosts/>
+  </a>
+</b:includable>
+      <b:includable id='threadedCommentForm' var='post'>
+  <div class='comment-form'>
+    <a name='comment-form'/>
+    <h4 id='comment-post-message'><data:messages.postAComment/></h4>
+    <b:if cond='data:this.messages.blogComment != &quot;&quot;'>
+      <p><data:this.messages.blogComment/></p>
+    </b:if>
+    <b:include data='post' name='commentFormIframeSrc'/>
+    <iframe allowtransparency='allowtransparency' class='blogger-iframe-colorize blogger-comment-from-post' expr:height='data:cmtIframeInitialHeight ?: &quot;90px&quot;' frameborder='0' id='comment-editor' name='comment-editor' src='' width='100%'/>
+    <data:post.cmtfpIframe/>
+    <script type='text/javascript'>
+      BLOG_CMT_createIframe(&#39;<data:post.appRpcRelayPath/>&#39;);
+    </script>
+  </div>
+</b:includable>
+      <b:includable id='threadedCommentJs' var='post'>
+  <script async='async' expr:src='data:post.commentSrc' type='text/javascript'/>
+  <b:template-script inline='true' name='threaded_comments'/>
+  <script type='text/javascript'>
+    blogger.widgets.blog.initThreadedComments(
+        <data:post.commentJso/>,
+        <data:post.commentMsgs/>,
+        <data:post.commentConfig/>);
+  </script>
+</b:includable>
+      <b:includable id='threadedComments' var='post'>
+  <section class='comments threaded' expr:data-embed='data:post.embedCommentForm' expr:data-num-comments='data:post.numberOfComments' id='comments'>
+    <a name='comments'/>
+
+    <b:include name='commentsTitle'/>
+
+    <div class='comments-content'>
+      <b:if cond='data:post.embedCommentForm'>
+        <b:include data='post' name='threadedCommentJs'/>
+      </b:if>
+      <div id='comment-holder'>
+         <data:post.commentHtml/>
+      </div>
+    </div>
+
+    <p class='comment-footer'>
+      <b:if cond='data:post.allowNewComments'>
+        <b:include data='post' name='threadedCommentForm'/>
+      <b:else/>
+        <data:post.noNewCommentsText/>
+      </b:if>
+      <b:if cond='data:post.showManageComments'>
+        <b:include data='post' name='manageComments'/>
+      </b:if>
+    </p>
+
+    <b:if cond='data:showCmtPopup'>
+      <div id='comment-popup'>
+        <iframe allowtransparency='allowtransparency' frameborder='0' id='comment-actions' name='comment-actions' scrolling='no'>
+        </iframe>
+      </div>
+    </b:if>
+  </section>
+</b:includable>
+      <b:includable id='tooltipCss'>
+  <!-- LINT.IfChange -->
+  <style>
+    .post-body a.b-tooltip-container {
+      position: relative;
+      display: inline-block;
+    }
+
+    .post-body a.b-tooltip-container .b-tooltip {
+      display: block !important;
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      transform: translate(-20%, 1px);
+      visibility: hidden;
+      opacity: 0;
+      z-index: 1;
+      transition: opacity 0.2s ease-in-out;
+    }
+
+    .post-body a.b-tooltip-container .b-tooltip iframe {
+      width: 200px;
+      height: 198px;
+      max-width: none;
+      border: none;
+      border-radius: 20px;
+      box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.2);
+    }
+
+    @media (hover: hover) {
+      .post-body a.b-tooltip-container:hover .b-tooltip {
+        visibility: visible;
+        opacity: 1;
+      }
+    }
+  </style>
+  <!-- LINT.ThenChange(//depot/google3/java/com/google/blogger/b2/layouts/widgets/v2-style.css) -->
+</b:includable>
+    </b:widget>
+  </b:section>
+
+  <!-- ==========================================
+       10. TAG PENCARIAN GOOGLE (Widget: HTML11)
+       ========================================== -->
+  <b:section class='search-tags-section' id='search-tags-section' maxwidgets='1' showaddelement='no'>
+    <b:widget id='HTML11' locked='false' title='Tag Pencarian Google' type='HTML' version='2' visible='true'>
+      <b:widget-settings>
+        <b:widget-setting name='content'/>
+      </b:widget-settings>
+      <b:includable id='main'>
+        <div style='padding:50px 0; background:#0f0f0f; border-top:1px solid #262626;'>
+          <div class='container'>
+            <div style='margin-bottom:16px;'>
+              <span style='display:inline-block; background:rgba(217,119,6,0.15); color:#f59e0b; border:1px solid rgba(217,119,6,0.3); font-size:10px; font-weight:bold; text-transform:uppercase; padding:4px 12px; border-radius:9999px;'>
+                GOOGLE SEARCH HOT QUERIES
+              </span>
+              <h2 style='font-size:24px; color:#fff; margin-top:8px;'>Tag Pencarian Google</h2>
+              <p style='color:#a3a3a3; font-size:13px; margin-top:4px;'>
+                Daftar kueri pencarian terpopuler pengguna Google untuk menemukan layanan spa premium dan pijat panggilan di Jakarta:
+              </p>
+            </div>
+            <div class='tag-cloud'>
+              <a class='tag-item' href='https://wa.me/6281234567890?text=Halo%20Admin,%20saya%20tertarik%20dengan%20pijat%20panggilan%20jakarta%2024%20jam'>#pijat panggilan jakarta 24 jam</a>
+              <a class='tag-item' href='https://wa.me/6281234567890?text=Halo%20Admin,%20saya%20tertarik%20dengan%20massage%20hotel%20jakarta%20bintang%205'>#massage hotel jakarta bintang 5</a>
+              <a class='tag-item' href='https://wa.me/6281234567890?text=Halo%20Admin,%20saya%20tertarik%20dengan%20spa%20panggilan%20apartemen%20jakarta'>#spa panggilan apartemen jakarta</a>
+              <a class='tag-item' href='https://wa.me/6281234567890?text=Halo%20Admin,%20saya%20tertarik%20dengan%20pijat%20panggilan%20jakarta%20selatan'>#pijat panggilan jakarta selatan</a>
+              <a class='tag-item' href='https://wa.me/6281234567890?text=Halo%20Admin,%20saya%20tertarik%20dengan%20pijat%20panggilan%20jakarta%20pusat'>#pijat panggilan jakarta pusat</a>
+              <a class='tag-item' href='https://wa.me/6281234567890?text=Halo%20Admin,%20saya%20tertarik%20dengan%20massage%20panggilan%20jakarta%20barat'>#massage panggilan jakarta barat</a>
+              <a class='tag-item' href='https://wa.me/6281234567890?text=Halo%20Admin,%20saya%20tertarik%20dengan%20pijat%20panggilan%20jakarta%20utara%20pik'>#pijat panggilan jakarta utara pik</a>
+              <a class='tag-item' href='https://wa.me/6281234567890?text=Halo%20Admin,%20saya%20tertarik%20dengan%20massage%20panggilan%20jakarta%20timur'>#massage panggilan jakarta timur</a>
+              <a class='tag-item' href='https://wa.me/6281234567890?text=Halo%20Admin,%20saya%20tertarik%20dengan%20pijat%20tradisional%20jakarta'>#pijat tradisional jakarta</a>
+              <a class='tag-item' href='https://wa.me/6281234567890?text=Halo%20Admin,%20saya%20tertarik%20dengan%20deep%20tissue%20massage%20jakarta'>#deep tissue massage jakarta</a>
+              <a class='tag-item' href='https://wa.me/6281234567890?text=Halo%20Admin,%20saya%20tertarik%20dengan%20aromatherapy%20reflexology%20jakarta'>#aromatherapy reflexology jakarta</a>
+              <a class='tag-item' href='https://wa.me/6281234567890?text=Halo%20Admin,%20saya%20tertarik%20dengan%20lulur%20body%20scrub%20jakarta'>#lulur body scrub jakarta</a>
+              <a class='tag-item' href='https://wa.me/6281234567890?text=Halo%20Admin,%20saya%20tertarik%20dengan%20terapis%20wanita%20bersertifikat'>#terapis wanita bersertifikat</a>
+              <a class='tag-item' href='https://wa.me/6281234567890?text=Halo%20Admin,%20saya%20tertarik%20dengan%20massage%20hotel%20scbd%20sudirman'>#massage hotel scbd sudirman</a>
+              <a class='tag-item' href='https://wa.me/6281234567890?text=Halo%20Admin,%20saya%20tertarik%20dengan%20pijat%20panggilan%20mega%20kuningan'>#pijat panggilan mega kuningan</a>
+            </div>
+          </div>
+        </div>
+      </b:includable>
+    </b:widget>
+  </b:section>
+
+  <!-- ==========================================
+       11. COOKIE CONSENT NOTIFICATION (Widget: HTML9)
+       ========================================== -->
+  <b:section class='cookie-section' id='cookie-section' maxwidgets='1' showaddelement='no'>
+    <b:widget id='HTML9' locked='false' title='Pemberitahuan Cookie' type='HTML' version='2' visible='true'>
+      <b:widget-settings>
+        <b:widget-setting name='content'/>
+      </b:widget-settings>
+      <b:includable id='main'>
+        <div id='cookie-consent-blogger'>
+          <div style='font-size:14px; font-weight:bold; color:#fff; margin-bottom:6px;'>🍪 Pemberitahuan Cookie &amp; Privasi</div>
+          <p style='font-size:12px; color:#aaa; line-height:1.5; margin-bottom:14px;'>
+            Website Daydreams Massage menggunakan cookie untuk meningkatkan kenyamanan navigasi, mengingat preferensi pemesanan spa Anda, dan memastikan performa website optimal.
+          </p>
+          <div style='display:flex; gap:8px;'>
+            <button onclick='acceptBloggerCookie()' style='background:#d4af37; color:#000; font-weight:bold; border:none; padding:8px 16px; border-radius:8px; font-size:12px; cursor:pointer;'>
+              Setujui Semua
+            </button>
+            <button onclick='dismissBloggerCookie()' style='background:#262626; color:#ccc; border:1px solid #444; padding:8px 14px; border-radius:8px; font-size:12px; cursor:pointer;'>
+              Hanya Esensial
+            </button>
+          </div>
+        </div>
+      </b:includable>
+    </b:widget>
+  </b:section>
+
+  <!-- ==========================================
+       12. FOOTER SECTION (Widget: HTML8)
+       ========================================== -->
+  <b:section class='footer-section' id='footer-section' maxwidgets='1' showaddelement='no'>
+    <b:widget id='HTML8' locked='false' title='Footer Kontak &amp;amp; Hak Cipta' type='HTML' version='2' visible='true'>
+      <b:widget-settings>
+        <b:widget-setting name='content'/>
+      </b:widget-settings>
+      <b:includable id='main'>
+        <footer style='background:#050505; border-top:1px solid #1a1a1a; padding:40px 0 20px; font-size:12px; color:#777;'>
+          <div class='container'>
+            <div style='display:flex; flex-wrap:wrap; justify-content:space-between; gap:20px; margin-bottom:30px;'>
+              <div style='max-width:350px;'>
+                <div style='font-size:16px; font-weight:bold; color:#fff; margin-bottom:8px;'>DAYDREAMS MASSAGE JAKARTA</div>
+                <p style='line-height:1.6;'>Penyedia jasa pijat panggilan 24 jam premium untuk tamu hotel, apartemen, dan perumahan di seluruh Jakarta. Menghadirkan kenyamanan spa bintang lima ke ruangan Anda.</p>
+              </div>
+              <div>
+                <div style='font-weight:bold; color:#fff; margin-bottom:8px;'>Hubungi Kami 24 Jam</div>
+                <div>WhatsApp: <a href='https://wa.me/6281234567890' style='color:#10b981; font-weight:bold;'>+62 812-3456-7890</a></div>
+                <div style='margin-top:4px;'>Email: info@daydreamsmassagejakarta.com</div>
+                <div style='margin-top:8px;'>
+                  <a href='javascript:void(0)' onclick='showBloggerCookieSettings()' style='color:#d4af37; text-decoration:underline;'>Pengaturan Cookie</a>
+                </div>
+              </div>
+            </div>
+            <div style='border-top:1px solid #1f1f1f; padding-top:20px; text-align:center; color:#555;'>
+              @ 2026 Daydreams Massage Jakarta &amp; GoSmartTools. All rights reserved. MIT License.
+            </div>
+          </div>
+        </footer>
+      </b:includable>
+    </b:widget>
+  </b:section>
+
+  <!-- ==========================================
+       13. FLOATING WHATSAPP BUTTON (Widget: HTML7)
+       ========================================== -->
+  <b:section class='floating-widget-section' id='floating-widget-section' maxwidgets='1' showaddelement='no'>
+    <b:widget id='HTML7' locked='false' title='Floating WhatsApp Button' type='HTML' version='2' visible='true'>
+      <b:widget-settings>
+        <b:widget-setting name='content'/>
+      </b:widget-settings>
+      <b:includable id='main'>
+        <a href='https://wa.me/6281234567890?text=Halo%20Admin%20Daydreams%20Massage,%20saya%20ingin%20booking%20terapis%20ke%20lokasi%20saya%20sekarang.' style='position:fixed; bottom:24px; right:24px; background:#10b981; color:#000; font-weight:bold; font-size:13px; padding:12px 22px; border-radius:9999px; text-decoration:none; display:flex; align-items:center; gap:8px; box-shadow:0 10px 25px rgba(16,185,129,0.4); z-index:9999;' target='_blank'>
+          <span>💬</span> Chat WhatsApp 24 Jam
+        </a>
+      </b:includable>
+    </b:widget>
+  </b:section>
+
+  <!-- ==========================================
+       CLIENT SCRIPTS: Service Worker, PWA & Cookies
+       ========================================== -->
+  <script type='text/javascript'>
+  //<![CDATA[
+  // 1. Service Worker Registration
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', function() {
+      navigator.serviceWorker.register('/sw.js').then(function(reg) {
+        console.log('PWA ServiceWorker registered with scope:', reg.scope);
+      }).catch(function(err) {
+        console.log('PWA ServiceWorker registration failed:', err);
+      });
+    });
+  }
+
+  // 2. PWA Before Install Prompt Handler
+  var deferredPWAPrompt = null;
+  var isIOS = /iphone|ipad|ipod/.test(window.navigator.userAgent.toLowerCase());
+  var isStandalone = window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone === true;
+
+  window.addEventListener('beforeinstallprompt', function(e) {
+    e.preventDefault();
+    deferredPWAPrompt = e;
+    if (!isStandalone && !sessionStorage.getItem('daydreams_pwa_dismissed')) {
+      var banner = document.getElementById('pwa-install-banner-blogger');
+      if (banner) banner.style.display = 'block';
+      var headerBtn = document.getElementById('btn-pwa-header');
+      if (headerBtn) headerBtn.style.display = 'inline-block';
+    }
+  });
+
+  // If iOS Safari, also show prompt option
+  window.addEventListener('load', function() {
+    if (isIOS && !isStandalone && !sessionStorage.getItem('daydreams_pwa_dismissed')) {
+      var banner = document.getElementById('pwa-install-banner-blogger');
+      if (banner) banner.style.display = 'block';
+      var headerBtn = document.getElementById('btn-pwa-header');
+      if (headerBtn) headerBtn.style.display = 'inline-block';
+      var actionBtn = document.getElementById('btn-pwa-action');
+      if (actionBtn) actionBtn.innerText = 'Cara Pasang di iPhone';
+    }
+  });
+
+  function triggerPWAInstall() {
+    if (deferredPWAPrompt) {
+      deferredPWAPrompt.prompt();
+      deferredPWAPrompt.userChoice.then(function(choice) {
+        if (choice.outcome === 'accepted') {
+          dismissPWABanner();
+        }
+        deferredPWAPrompt = null;
+      });
+    } else if (isIOS) {
+      var modal = document.getElementById('ios-pwa-modal');
+      if (modal) modal.style.display = 'flex';
+    } else {
+      alert('Untuk memasang aplikasi ini di browser Anda: klik tombol Titik Tiga (⋮) atau ikon Pasang di bilah alamat browser, lalu pilih "Instal Daydreams Massage".');
+    }
+  }
+
+  function dismissPWABanner() {
+    var banner = document.getElementById('pwa-install-banner-blogger');
+    if (banner) banner.style.display = 'none';
+    sessionStorage.setItem('daydreams_pwa_dismissed', 'true');
+  }
+
+  // 3. Cookie Consent Handler
+  window.addEventListener('load', function() {
+    var cookieConsent = localStorage.getItem('daydreams_cookie_consent');
+    if (!cookieConsent) {
+      setTimeout(function() {
+        var cBox = document.getElementById('cookie-consent-blogger');
+        if (cBox) cBox.style.display = 'block';
+      }, 1200);
+    }
+  });
+
+  function acceptBloggerCookie() {
+    localStorage.setItem('daydreams_cookie_consent', 'all');
+    var cBox = document.getElementById('cookie-consent-blogger');
+    if (cBox) cBox.style.display = 'none';
+  }
+
+  function dismissBloggerCookie() {
+    localStorage.setItem('daydreams_cookie_consent', 'essential');
+    var cBox = document.getElementById('cookie-consent-blogger');
+    if (cBox) cBox.style.display = 'none';
+  }
+
+  function showBloggerCookieSettings() {
+    var cBox = document.getElementById('cookie-consent-blogger');
+    if (cBox) cBox.style.display = 'block';
+  }
+  //]]>
+  </script>
+
+</body>
+</html>
